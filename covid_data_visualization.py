@@ -15,7 +15,7 @@ df = df.loc[df['submission_date'].dt.day == 1]
 df = df.groupby(['state', 'year_month']).agg({'tot_cases': 'sum'}).reset_index()
 
 # Create the map using Plotly Express
-fig = px.choropleth(df, locations='state', locationmode='USA-states', color='tot_cases', scope='usa', animation_frame='year_month')
+fig = px.choropleth(df, locations='state', locationmode='USA-states', color='tot_cases', color_continuous_scale='Reds', scope='usa', animation_frame='year_month')
 
 # Show the map
 fig.show()
