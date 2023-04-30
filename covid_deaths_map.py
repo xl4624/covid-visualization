@@ -6,7 +6,7 @@ df = pd.read_csv('covid_data.csv', usecols=['submission_date', 'state', 'tot_dea
 
 # Convert the submission_date column to a datetime object and extract the year and month
 df['submission_date'] = pd.to_datetime(df['submission_date'])
-df['year_month'] = df['submission_date'].dt.strftime('%Y-%m')
+df['year_month'] = df['submission_date'].dt.strftime('%Y_%m')
 
 # Filter the data to only include the first day of each month
 df = df.loc[df['submission_date'].dt.day == 1]
