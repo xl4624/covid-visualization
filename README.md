@@ -1,6 +1,6 @@
 # Covid-19-Data-Visualization
 
-This project creates a choropleth map of the United States showing the total number of COVID-19 cases per state. The data used for the map comes from the [CDC COVID Data Tracker](https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36).
+This project creates choropleth maps of the United States showing the total number of COVID-19 cases and deaths per state. The data used for the maps comes from the [CDC COVID Data Tracker](https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36).
 
 ## Requirements
 
@@ -19,8 +19,8 @@ pip install -r requirements.txt
 
 To use this project, follow these steps:
 
-1. Run the `covid_data_visualization.py` script using Python 3. The script will generate a choropleth map and display it in your web browser.
-2. If you want to customize the visualization, you can modify the `covid_data.csv` file.
+1. Run any of the python files. The scripts will generate a choropleth map and display it in your web browser.
+2. If you want to customize the data, you can modify the `covid_data.csv` file.
 
 ## License
 
