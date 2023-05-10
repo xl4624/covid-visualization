@@ -1,4 +1,4 @@
-# Covid-19-Data-Visualization
+# Covid-19 Data Visualization
 
 This project creates choropleth maps and line charts to visualize the total number of COVID-19 cases and deaths in the United States. The data used for the visualizations comes from the [CDC COVID Data Tracker](https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36).
 
